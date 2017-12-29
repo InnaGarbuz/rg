@@ -1,0 +1,225 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1600px) {
+	header{
+		padding: 10px 10px 0;
+	}
+}
+
+@media only screen and (max-width : 1302px) {
+	.navigations .nav-bar li a{
+		font-size: 14px;
+	}
+	.navigations .top-menu li a{
+		font-size: ;
+	}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+.logo img{
+	width: 300px;
+    margin: 13px 0;
+}
+.logo{
+	margin: 0;
+}
+.navigations .top-menu li a{
+	font-size: 13px;
+}
+.navigations .nav-bar li a{
+	font-size: 	12px;
+}
+.navigations .nav-bar li{
+	padding: 0 2px 0;	
+}
+
+.text-banner p{
+	font-size: 17px;
+}
+.button-header button a{
+	font-size: 19px;
+}
+.text-banner h1{
+	font-size: 40px;
+}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.navigations,.navigations .top-menu{
+	display: none;
+}
+.menu-cont{
+	display: block;
+}
+
+.banner{
+    background-position: 0px 71px;
+    background-size: contain;
+    height: 545px;
+}
+.text-banner{
+	margin: 16vh 6vh;
+}
+.logo img {
+    width: 300px;
+    margin: 0 0 5px;
+}
+.navigations .nav-bar li{
+	display: block;
+}
+.tabss li, .tab-green li{
+	width: 100%;
+	margin: 5px 0;
+	padding: 8px;
+}
+.cont_tabs2 {
+	height: auto;
+}
+.cont_tabs p, .cont_tabs ul{
+	margin: 15px 0 ;
+}
+.our-gallery .gallery .gall-item img {
+    width: 100%;
+    height: 200px;
+}
+.text-banner h1{
+	font-size: 30px !important;
+}
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+.navigations .nav-bar li a {
+    font-size: 14px;
+}
+.text-banner{
+	margin-top: 13vh;
+}
+
+footer {
+    background-position: -11% 11px;
+}
+.memory-dogs p img {
+    height: auto;
+    width: 100%;
+}
+
+.text-banner p{
+	width: 50%;
+}
+.our-victories .numbers{
+
+    font-size: 32px;
+}
+.our-victories .achievement{
+    font-size: 18px;
+}
+}
+@media only screen and (max-width : 760px) {
+	.our-gallery .gallery .gall-item img{
+	height: auto;
+}
+	.banner{
+		background: url('../img/bgmobbi.jpg');
+		background-position: 82% 99%;
+	}
+	.text-banner {
+	    margin: 16vh auto;
+	    text-align: center;
+	    width: 100%;
+	}
+	.text-banner p{
+		width: 70%;
+		margin: 0 auto;
+	}
+}
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width : 480px) {
+.header-text h2, .header-text-white h2, .header-text-green h2{
+	font-size: 35px;
+}
+.our-victories .numbers{
+	font-size: 32px;
+}
+.our-victories .achievement{
+	font-size: 30px;
+}
+.text p{
+	text-align: left;
+}
+footer{
+  background-position: 18% -113px;
+}
+.footer-text ul li .col-md-1{
+	width: 8%;
+}
+header{
+	padding: 10px 0 0;
+}
+.logo img{
+	width: 	230px;
+}
+.navigations .nav-bar{
+	padding: 0;	
+}
+.menu-cont{
+	top:-3px;
+}
+.cont_tabs p{
+	text-align: left;
+	padding: 0;
+}
+	.padding {
+    padding: 20px 100px !important;
+}	
+.cont_tabs .image-left{
+	padding: 0;
+}
+.cont_tabs .decrtiption .desct-text p{
+	padding: 0;
+}
+.banner-page {
+    background-position: -109px -13px;
+}
+.cont_tabs ul li, .cont_tabs ul{
+	padding: 0;
+}
+.your-class p{
+	font-size: 15px;
+}
+.your-class{
+	width: 80%;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+.footer-text ul li .col-md-1{
+	width: 10%;
+}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width :  1367px) {
+   
+}
+

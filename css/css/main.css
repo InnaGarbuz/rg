@@ -1,0 +1,45 @@
+body {
+  font-family: "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  position: relative;
+  line-height: 1.42857; }
+
+ul {
+  list-style: none; }
+
+.top-header {
+  background: #1c1b20;
+  padding: 10px 0; }
+
+/*top-panel */
+.top-header__basket-exit, .top-header__language {
+  margin-top: 40px;
+  text-align: center; }
+
+.basket-exit__item, .language__item {
+  display: inline-block;
+  color: #e7bc49;
+  font-size: 13px;
+  padding: 0 6px; }
+
+.top-header__logo {
+  text-align: right; }
+
+.header {
+  background: #000; }
+
+.navigation__nav-bar {
+  text-align: center;
+  margin: 0 0 10px; }
+
+.nav-bar__item {
+  display: inline-block;
+  padding: 0 15px; }
+
+.item__link {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 100; }
+
+/*# sourceMappingURL=main.css.map */
