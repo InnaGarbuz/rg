@@ -349,4 +349,125 @@ ul {
     padding: 0 15px;
     line-height: 2; }
 
+.goods__sets {
+  margin: 20px 0;
+  width: 100%;
+  overflow: hidden; }
+
+.center {
+  text-align: center; }
+
+.sets {
+  background-color: #1b1a1f;
+  overflow: hidden;
+  color: #e9e9ea;
+  padding: 0 20px; }
+  .sets h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-top: 40px;
+    letter-spacing: 4px; }
+  .sets p {
+    font-size: 12px;
+    margin: 8px 0;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 100; }
+
+.goods__skin {
+  width: 100%;
+  overflow: hidden; }
+
+.leather {
+  margin: 0;
+  border: 1px solid transparent; }
+  .leather:hover {
+    border: 1px solid #e7bc49; }
+
+.leather__item {
+  margin: 10px;
+  padding: 40px 0; }
+  .leather__item h3 {
+    font-size: 23px;
+    font-weight: normal;
+    color: #fff;
+    text-align: center;
+    font-family: "Cuprum", sans-serif; }
+
+.crocodile {
+  background: url("../img/leather1.jpg") no-repeat center center;
+  background-size: cover; }
+
+.ostrich {
+  background: url("../img/leather2.jpg") no-repeat center center;
+  background-size: cover; }
+
+.python {
+  background: url("../img/leather3.png") no-repeat center center;
+  background-size: cover; }
+
+.lamb {
+  background: url("../img/leather4.jpg") no-repeat center center;
+  background-size: cover; }
+
+.vertical-bottom {
+  vertical-align: bottom; }
+
+.goods__commodity {
+  margin: 40px 0;
+  width: 100%;
+  overflow: hidden; }
+
+.commodity {
+  padding: 40px 20px 20px;
+  height: 400px; }
+  .commodity:hover {
+    -webkit-box-shadow: -1px 2px 17px 9px #dfdfdf;
+    -moz-box-shadow: -1px 2px 17px 9px #dfdfdf;
+    box-shadow: -1px 2px 17px 9px #dfdfdf; }
+
+.commodity__price {
+  font-weight: bold;
+  font-size: 25px;
+  color: #000;
+  text-align: center;
+  margin: 10px 0; }
+
+.commodity__name {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 100;
+  text-align: center;
+  color: #000;
+  margin: 10px 0; }
+
+.goods__plaginations {
+  width: 21%;
+  margin: 20px auto; }
+
+.plaginations {
+  padding: 0;
+  margin: 0;
+  border: 1px solid #cbcbcb;
+  text-align: center;
+  border-radius: 4px; }
+
+.plaginations__item, .plaginations__item_arrows {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 0 -2px;
+  border-right: 1px solid #cbcbcb;
+  cursor: pointer; }
+  .plaginations__item a, .plaginations__item_arrows a {
+    color: #4c5461;
+    font-size: 15px; }
+  .plaginations__item:hover, .plaginations__item_arrows:hover {
+    background-color: #4c5461; }
+    .plaginations__item:hover a, .plaginations__item_arrows:hover a {
+      color: #eaeaea; }
+
+.arrow-right {
+  border-right: none; }
+
 /*# sourceMappingURL=main.css.map */
